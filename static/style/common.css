@@ -1,0 +1,107 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h3,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	font-size:14px;
+	font-family: Arial,Helvetica,"Microsoft Yahei";
+	color:#4C4C4C;
+}
+a{
+	text-decoration: none;
+	color:#4C4C4C;
+}
+a:hover{
+    color: #ffb000;
+}
+.wrapper{
+	position: relative;
+    min-width: 960px;
+	height: 100%;
+}
+.inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+footer{
+    background: #333333;
+}
+.container{
+    padding-top: 80px;
+}
+
+.mod-head{
+    overflow: hidden;
+}
+.mod-head h1{
+    float: left;
+}
+.mod-head nav{
+    float: right;
+    padding: 15px 0;
+}
+.mod-head nav li{
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.mod-foot{
+    padding: 20px 0;
+    font-size: 13px;
+    color: #999;
+}
+.mod-foot a{
+    color: #999;
+}
+.mod-foot a:hover{
+    text-decoration: underline;
+}
+.mod-foot .bd{
+    padding: 10px;
+    line-height: 28px;
+}
+.mod-foot .bd .group-1{
+    float: left;
+    width: 50%;
+}
+.mod-foot .bd .group-2{
+    margin-left: 50%;
+    text-align: right;
+}
+.mod-foot .bd .item{
+    display: inline-block;
+    width: 130px;
+    margin: 0 10px;
+    line-height: 24px;
+    text-align: center;
+}
+.mod-foot .bd h3{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #eee;
+}
+.mod-foot .ft{
+    padding-top: 5px;
+    border-top: 1px solid #555;
+}
+.mod-foot .ft p{
+    line-height: 30px;
+}
+.mod-foot .ft span,.mod-foot .ft a{
+    margin: 0 5px;
+}
