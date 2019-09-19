@@ -227,6 +227,10 @@
         font-size: 16px;
     }
 
+    .mod-area .map{
+        height: 300px;
+    }
+
     .mod-display ul{
         margin: 0 2px;
     }
