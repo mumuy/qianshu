@@ -169,3 +169,95 @@
     float: left;
     margin-right: 25px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        width: 100%;
+        bottom: 5px;
+    }
+    .swiper-pagination-bullet{
+        height: 4px;
+    }
+    .module{
+        margin-bottom: 30px;
+    }
+    .module .hd{
+        margin-bottom: 20px;
+    }
+    .module .hd h3{
+        height: 36px;
+    }
+    .module .hd h3 span{
+        bottom: -18px;
+        line-height: 36px;
+        font-size: 24px;
+    }
+    .module .hd p{
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .mod-slider .pic{
+        margin-left: 0;
+    }
+    .mod-slider .info{
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        margin: 0;
+        text-align: left;
+    }
+    .mod-slider .info .slogan{
+        padding: 10px;
+    }
+    .mod-slider .info .title{
+        line-height: 32px;
+        font-size: 20px;
+    }
+    .mod-slider .info .subtitle{
+        line-height: 32px;
+        font-size: 18px;
+    }
+
+    .mod-idea .bd{
+        padding: 30px 0 20px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .mod-area .map{
+        height: 300px;
+    }
+
+    .mod-display ul{
+        margin: 0 2px;
+    }
+    .mod-display li{
+        width: 50%;
+    }
+    .mod-display .item{
+        margin: 0 2px;
+    }
+    .mod-display .ft a{
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .mod-article .bd{
+        padding: 0 15px;
+    }
+    .mod-article h4{
+        margin-top: 15px;
+    }
+    .mod-article .pic{
+        float: none;
+        margin: 0 0 15px;
+        text-align: center;
+    }
+    .mod-article .pic img{
+        width: 280px;
+        height: auto;
+    }
+}
